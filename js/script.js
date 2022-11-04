@@ -1,3 +1,7 @@
+console.log(`WELLCOME TO ROCK PAPER SCISSORS
+Write your choice and get started`)
+
+
 const allChoices = ["rock", "paper", "scissors"]; // options for computer to pick from.
 let computerScore = 0;
 let playerScore = 0;
