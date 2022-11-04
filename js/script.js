@@ -42,7 +42,7 @@ function playRound(){ // one round of rock paper scissors
 
     console.log("Player Score: " + playerScore)
     console.log("Computer Score: " + computerScore)
-    console.log(`PLAYER SELECTION IS : "${playerSelection.toUpperCase()}" COMPUTER SELECTION IS "${computerSelection.toUpperCase()}"`)
+    console.log(`PLAYER SELECTION IS : "${playerSelection.toUpperCase()}" COMPUTER SELECTION IS : "${computerSelection.toUpperCase()}"`)
 }
 
 function game(){ // function to run the game until someone reaches to 5
