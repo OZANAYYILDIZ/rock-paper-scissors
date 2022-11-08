@@ -1,15 +1,9 @@
-console.log(`WELLCOME TO ROCK PAPER SCISSORS
-Write your choice and get started`)
+console.log(`WELLCOME TO ROCK PAPER SCISSORS`)
 
 
 const allChoices = ["rock", "paper", "scissors"]; // options for computer to pick from.
 let computerScore = 0;
 let playerScore = 0;
-let inputPlayer;
-let inputComputer;
-
-const playerSelection = inputPlayer;
-const computerSelection = inputComputer;
 
 function getComputerChoice(){ // function for computer to pick one of the options.
     let randomNumber = Math.floor(Math.random() * 3); //randomly creates a number between 0-2
@@ -17,8 +11,8 @@ function getComputerChoice(){ // function for computer to pick one of the option
 }
 
 function playRound(){ // one round of rock paper scissors
-    inputPlayer = prompt("rock", "paper", "scissors").toLowerCase(); // players choice
-    inputComputer = getComputerChoice();
+    let inputPlayer = prompt("rock", "paper", "scissors").toLowerCase(); // players choice
+    let inputComputer = getComputerChoice();
     const playerSelection = inputPlayer;
     const computerSelection = inputComputer;
 
