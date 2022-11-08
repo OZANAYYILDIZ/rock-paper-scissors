@@ -48,16 +48,3 @@ function playRound(){ // one round of rock paper scissors
     console.log("Computer Score: " + computerScore)
     console.log(`PLAYER SELECTION IS : "${playerSelection.toUpperCase()}" COMPUTER SELECTION IS : "${computerSelection.toUpperCase()}"`)
 }
-
-function game(){ // function to run the game until someone reaches to 5
-    while(playerScore <= 4 && computerScore <= 4){
-        playRound();
-    }
-    if(playerScore > computerScore){
-        console.log(`Congratulations, you won by ${playerScore} to ${computerScore}`)
-    } else if (playerScore < computerScore){
-        console.log(`You suck!`)
-        console.log(`REFRESH THE PAGE TO PLAY AGAIN!`)
-    }
-}
- game();
